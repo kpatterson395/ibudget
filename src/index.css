@@ -1,14 +1,91 @@
+.report .newLink, input[type="submit"], .expenseDetails .editButton {
+  text-decoration: none;
+  background: #ff6666;
+  color: #f2ede9;
+  padding: 10px;
+  border-radius: 5px; }
+  .report .newLink:hover, input[type="submit"]:hover, .expenseDetails .editButton:hover {
+    border: 1px solid #ff6666;
+    background: #f2ede9;
+    color: #ff6666;
+    cursor: pointer; }
+
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  color: #6e6a67;
+  font-family: 'Open Sans', sans-serif;
+  background: #ff6666;
+  text-align: center; }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+.header {
+  color: #f2ede9;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; }
+
+.report {
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  height: 100%;
+  background: #f2ede9;
+  padding: 20px;
+  margin: 0;
+  border-radius: 20px; }
+  .report .report-header {
+    display: flex;
+    flex-direction: column; }
+  .report .summary {
+    padding: 50px; }
+    .report .summary .expenseReport {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .report .summary .expenseReport .expense-link {
+        text-decoration: none;
+        flex-grow: 1;
+        text-align: left; }
+      .report .summary .expenseReport .expenseAmt {
+        flex-grow: 1;
+        padding: 0;
+        margin: 0;
+        text-align: right; }
+      .report .summary .expenseReport .withdrawl {
+        color: red; }
+      .report .summary .expenseReport .deposit {
+        color: blue; }
+
+input, textarea, select {
+  display: block;
+  margin: 50px auto;
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid #6e6a67;
+  background: #f2ede9; }
+
+input[type="submit"] {
+  border: none; }
+
+.expenseForm {
+  position: absolute;
+  width: 80%;
+  background: #f2ede9;
+  left: 10%;
+  border-radius: 20px; }
+
+.expenseDetails {
+  background: #f2ede9;
+  width: 60%;
+  right: 20%;
+  position: absolute;
+  border-radius: 20px;
+  padding: 50px; }
+  .expenseDetails .editButton {
+    margin-top: 100px;
+    display: block; }
+
+/*# sourceMappingURL=index.css.map */

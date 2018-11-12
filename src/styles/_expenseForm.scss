@@ -1,0 +1,24 @@
+input, textarea, select { 
+	display: block;
+	margin: 50px auto;
+	padding: 10px;
+	position: relative;
+	border-radius: 5px;
+	border: 2px solid $font-color;
+	background: $secondary-color;
+}
+
+input[type="submit"]{
+	border: none;
+	@extend %button
+}
+
+.expenseForm {
+	position: absolute;
+	width: 80%;
+	background: $secondary-color;
+	left: 10%;
+	border-radius: 20px;
+
+
+}

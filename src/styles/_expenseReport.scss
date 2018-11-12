@@ -1,0 +1,49 @@
+.report {
+	position: absolute;
+	left: 20%;
+	width: 60%;
+	height: 100%;
+	background: $secondary-color;
+	padding: 20px;
+	margin: 0;
+	border-radius: 20px;
+	.report-header {
+		display: flex;
+		flex-direction: column;
+	}
+	.newLink {
+	
+		@extend %button;
+	}
+	.balance {
+
+	}	
+	.summary {
+		padding: 50px;
+		.expenseReport {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			.expense-link {
+				text-decoration: none;
+	 			flex-grow: 1;
+	 			text-align: left;
+
+			}
+			.expenseAmt {
+				flex-grow: 1;	
+				padding: 0;
+	 			margin: 0;
+	 			text-align: right;
+			}
+			.withdrawl{
+				color: red;	
+			}
+
+			.deposit{
+				color: blue;
+		}			
+		}
+
+	}
+}

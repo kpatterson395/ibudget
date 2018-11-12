@@ -1,0 +1,18 @@
+$primary-color: #ff6666;
+$secondary-color: #f2ede9;
+$font-color: #6e6a67;
+
+%button {
+		text-decoration: none;
+		background: $primary-color;
+		color: $secondary-color;
+		padding: 10px;
+		border-radius: 5px;
+
+		&:hover {
+			border: 1px solid $primary-color;
+			background: $secondary-color;
+			color: $primary-color;
+			cursor: pointer;
+		}	
+}

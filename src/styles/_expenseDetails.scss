@@ -1,0 +1,17 @@
+.expenseDetails {
+	background: $secondary-color;
+	width: 60%;
+	right: 20%;
+	position: absolute;
+	border-radius: 20px;
+	padding: 50px;
+	.editButton {
+		@extend %button;
+		margin-top: 100px;
+		display: block;
+	}
+}
+
+
+
+
