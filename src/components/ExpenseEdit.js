@@ -69,7 +69,7 @@ class ExpenseEdit extends React.Component{
 				<input type="number" placeholder="Amount" onChange={this.handleAmtChange}  value={this.state.amount}></input>
 				<select name="transaction" onChange={this.handleTransactionChange} defaultValue={expense.transaction}>
 				  <option value="deposit">Deposit</option>
-				  <option value="withdrawl">Withdrawl</option>
+				  <option value="withdrawal">Withdrawal</option>
 				</select>
 				<input type="date" onChange={this.handleDateChange}  value={this.state.date} placeholder="Date"></input>
 				<textarea placeholder="Notes" onChange={this.handleNotesChange} value={this.state.notes}></textarea>

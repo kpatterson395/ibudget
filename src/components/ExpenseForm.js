@@ -48,7 +48,7 @@ class ExpenseForm extends React.Component{
 				<input type="number" placeholder="Amount"></input>
 				<select name="transaction">
 				  <option value="deposit">Deposit</option>
-				  <option value="withdrawl">Withdrawl</option>
+				  <option value="withdrawal">Withdrawal</option>
 				</select>
 				<input type="date" value={today} placeholder="Date"></input>
 				<textarea placeholder="Notes"></textarea>

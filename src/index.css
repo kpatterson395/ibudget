@@ -53,7 +53,7 @@ body {
         text-decoration: none;
         flex-grow: 1;
         text-align: left; }
-      .report .summary .expenseReport .withdrawl {
+      .report .summary .expenseReport .withdrawal {
         color: red; }
       .report .summary .expenseReport .deposit {
         color: blue; }
