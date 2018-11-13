@@ -5,11 +5,13 @@ import ExpenseList from './ExpenseList';
 import ExpenseDetails from './ExpenseDetails';
 import ExpenseForm from './ExpenseForm';
 import ExpenseEdit from './ExpenseEdit';
+import { withRouter } from 'react-router';
 
 
 
 
-export default class Main extends React.Component{
+
+class Main extends React.Component{
 	constructor(props){
 		super(props)
 		this.state = {
@@ -37,5 +39,6 @@ export default class Main extends React.Component{
 };
 
 
+export default withRouter(Main);
 
 
