@@ -44,7 +44,7 @@ class ExpenseList extends React.Component{
 						
 						{this.props.expenses.map( (expense, id) => 
 							<div key={expense.description} className="expenseReport">
-								<Link to={`/expense/${id}`}  className="expense-link">{expense.description}</Link>
+								<Link to={`/expense/${id}`} id="expense-link" className={expense.transaction}>{expense.description}</Link>
 								<p className="expenseAmt">{expense.amount}</p>
 							</div>
 							)

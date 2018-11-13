@@ -1,5 +1,5 @@
 
-const expenses = (state = [{description: "rent", amount: "4500", transaction: "deposit", date: "2018-11-12", notes: "rememebr!!!"}], action) => {
+const expenses = (state = [], action) => {
 	switch(action.type) {
 		case 'ADD_EXPENSE':
 		return (

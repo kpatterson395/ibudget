@@ -24,24 +24,26 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: center;
-			.expense-link {
-				text-decoration: none;
-	 			flex-grow: 1;
-	 			text-align: left;
-
-			}
 			.expenseAmt {
 				flex-grow: 1;	
 				padding: 0;
 	 			margin: 0;
 	 			text-align: right;
 			}
+
+			#expense-link {
+				text-decoration: none;
+	 			flex-grow: 1;
+	 			text-align: left;		
+			}
 			.withdrawl{
-				color: red;	
+				color: red;
+		
 			}
 
 			.deposit{
 				color: blue;
+	
 		}			
 		}
 
