@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/ibudget/static/js/runtime~main.1f02cf04.js"
   },
   {
-    "revision": "6217e5a09d075e642ce5",
-    "url": "/ibudget/static/js/main.6217e5a0.chunk.js"
+    "revision": "b799aa90b85cc463bfb0",
+    "url": "/ibudget/static/js/main.b799aa90.chunk.js"
   },
   {
     "revision": "0cfbb02412eef0019b19",
     "url": "/ibudget/static/js/1.0cfbb024.chunk.js"
   },
   {
-    "revision": "6217e5a09d075e642ce5",
-    "url": "/ibudget/static/css/main.c0bf4027.chunk.css"
+    "revision": "b799aa90b85cc463bfb0",
+    "url": "/ibudget/static/css/main.6f450cb3.chunk.css"
   },
   {
-    "revision": "d2b2191e25c6915329e9cf28f1aa5729",
+    "revision": "a1f6fd3e44f2a93d220e7ba10e739c29",
     "url": "/ibudget/index.html"
   }
 ];
